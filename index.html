@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="new-task">
+        <h1>Nombres</h1>
+        <input id="title-task" type="text" placeholder="Nombre" />
+        <input id="datetime-task" type="color" placeholder="color"/>
+        <select id="forma-task"><option value="Cuadrado">Cuadrado</option><option value="Circulo">Circulo</option></select>
+        <ul id="box-search">
+      </ul>
+         <button id="save-btn">Insertar</button>
+      </div>
+      <div class="list-tasks">
+        <div class="title-list">
+          <h1>Lista de Nombres</h1>
+        </div>
+        <div class="list" id="list-container"></div>
+      </div>
+    </div>
+    <dialog id="task-detail-dialog">
+      <div class="dialog">
+        <div class="task-detail">
+          <div id="close-dialog" class="close-dialog">x</div>
+          <div id="task-detail"></div>
+         </div>
+      </div>
+    </dialog>
+  
+  
+    <script src="js.js"></script>
+  </body>
+</html>
